@@ -1,0 +1,9 @@
+{
+  "discord.lowerDetailsEditing": "Learning OOP with Polevoi",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortAttrs": "explicit"
+  }
+}
