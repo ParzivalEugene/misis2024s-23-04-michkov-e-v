@@ -17,4 +17,4 @@ if (BUILD_WITH_CODEFORCES)
 endif()
 
 add_subdirectory(prj.lab)
-# add_subdirectory(prj.test)
+add_subdirectory(prj.test)
