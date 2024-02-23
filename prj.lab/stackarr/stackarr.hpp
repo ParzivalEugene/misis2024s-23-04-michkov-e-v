@@ -11,15 +11,16 @@ class StackArr {
   ~StackArr();
   StackArr& operator=(const StackArr& other);
 
-  void push(Complex value);
+  void push(Complex& value);
   void pop() noexcept;
   bool isEmpty() noexcept;
   const Complex& top() const;
+  void clear() noexcept;
 
  private:
   Complex* data_;
   ptrdiff_t size_;
-  ptrdiff_t capacity_;
+  ptrdiff_t top_index_;
 };
 
 #endif
