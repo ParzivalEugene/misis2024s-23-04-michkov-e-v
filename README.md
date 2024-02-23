@@ -1,6 +1,6 @@
 # Объектно Ориентированное Программирование
 
-![img](https://img.shields.io/badge/решено_задач-3-blue)
+![img](https://img.shields.io/badge/решено_задач-6-blue)
 
 > Автор репозитория: [Мичков Евгений Владмирович](https://links.michkoff.com) БПМ-23-4
 

@@ -1,3 +1,6 @@
 add_executable(0001b 0001b.cpp)
+add_executable(0041a 0041a.cpp)
 add_executable(0059a 0059a.cpp)
 add_executable(0431c 0431c.cpp)
+add_executable(0520a 0520a.cpp)
+add_executable(0734a 0734a.cpp)
