@@ -29,8 +29,8 @@ async def update_readme():
         solve_info = get_solve_info(data)
 
         md = f.read().decode("utf-8")
-        md = re.sub(r"Решено_задач-\d+", f"решено_задач-{len(get_files())}", md)
-        md = re.sub(r"Средний_рейтинг-\d+", f"средний_рейтинг-{get_avg_rating(solve_info)}", md)
+        md = re.sub(r"Решено_задач-\d+", f"Решено_задач-{len(get_files())}", md)
+        md = re.sub(r"Средний_рейтинг-\d+", f"Средний_рейтинг-{get_avg_rating(solve_info)}", md)
         md = re.sub(
             r"<!--\s*Start\s*table\s*-->[\s\S]*?<!--\s*End\s*table\s*-->",
             f"<!-- Start table -->\n{create_md_table(solve_info)}\n<!-- End table -->",

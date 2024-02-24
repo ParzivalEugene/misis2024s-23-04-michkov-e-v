@@ -1,7 +1,7 @@
 # Объектно Ориентированное Программирование
 
-![count](https://img.shields.io/badge/решено_задач-55-blue?style=for-the-badge)
-![rating](https://img.shields.io/badge/средний_рейтинг-949-red?style=for-the-badge)
+![count](https://img.shields.io/badge/Решено_задач-56-blue?style=for-the-badge)
+![rating](https://img.shields.io/badge/Средний_рейтинг-960-red?style=for-the-badge)
 [![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
 
 > Автор репозитория: [Мичков Евгений Владмирович](https://links.michkoff.com) БПМ-23-4
