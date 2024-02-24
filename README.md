@@ -6,8 +6,6 @@
 
 > Автор репозитория: [Мичков Евгений Владмирович](https://links.michkoff.com) БПМ-23-4
 
-Ссылки на [Leetcode](https://leetcode.com/ParzivalEugene/), [Codeforces](https://codeforces.com/profile/ParzivalEugene)
-
 ## Задачи
 
 <!-- Start table -->
@@ -81,6 +79,16 @@
 ```
 
 ## Pre-commit
+
+### Installation
+
+```bash
+python3 -m venv ./utils/.venv
+. ./utils/.venv/bin/activate
+pip3 install -r requirements.txt
+```
+
+### Pre-commit hook
 
 ```bash
 . ./utils/.venv/bin/activate
