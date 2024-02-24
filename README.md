@@ -2,7 +2,7 @@
 
 ![count](https://img.shields.io/badge/решено_задач-55-blue?style=for-the-badge)
 ![rating](https://img.shields.io/badge/средний_рейтинг-949-red?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white&link=https%3A%2F%2Fcodeforces.com%2Fprofile%2FParzivalEugene)
+[![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
 
 > Автор репозитория: [Мичков Евгений Владмирович](https://links.michkoff.com) БПМ-23-4
 
@@ -11,6 +11,7 @@
 <!-- Start table -->
 | Problem | Solution | Rating | Tags |
 | --- | --- | --- | --- |
+| [1371D Grid-00100](https://codeforces.com/problemset/problem/1371/D) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1371d.cpp) | 1600 | constructive algorithms, greedy, implementation |
 | [1B Spreadsheet](https://codeforces.com/problemset/problem/1/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0001b.cpp) | 1600 | implementation, math |
 | [431C k-Tree](https://codeforces.com/problemset/problem/431/C) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0431c.cpp) | 1600 | dp, implementation, trees |
 | [1404A Balanced Bitstring](https://codeforces.com/problemset/problem/1404/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1404a.cpp) | 1500 | implementation, strings |
