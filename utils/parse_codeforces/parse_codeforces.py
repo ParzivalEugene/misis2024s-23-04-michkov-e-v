@@ -44,6 +44,9 @@ def get_solve_info(data: Data) -> List[SolveInfo]:
         reverse=True,
     )
 
+def get_avg_rating(solve_info: List[SolveInfo]) -> int:
+    return sum(solve.rating for solve in solve_info) // len(solve_info)
+
 
 def create_md_table(solve_info: List[SolveInfo]) -> str:
     headers = ["Problem", "Solution", "Rating", "Tags"]

@@ -3,7 +3,7 @@ import os
 import re
 from io import open
 
-from parse_codeforces.parse_codeforces import create_md_table, get_codeforces_data, get_solve_info
+from parse_codeforces.parse_codeforces import create_md_table, get_avg_rating, get_codeforces_data, get_solve_info
 
 DIR = "./prj.codeforces"
 
@@ -25,12 +25,15 @@ def update_cmake():
 
 async def update_readme():
     with open("./README.md", "rb") as f:
-        md = f.read().decode("utf-8")
-        md = re.sub(r"решено_задач-\d+-blue", f"решено_задач-{len(get_files())}-blue", md)
         data = await get_codeforces_data()
+        solve_info = get_solve_info(data)
+
+        md = f.read().decode("utf-8")
+        md = re.sub(r"Решено_задач-\d+", f"решено_задач-{len(get_files())}", md)
+        md = re.sub(r"Средний_рейтинг-\d+", f"средний_рейтинг-{get_avg_rating(solve_info)}", md)
         md = re.sub(
             r"<!--\s*Start\s*table\s*-->[\s\S]*?<!--\s*End\s*table\s*-->",
-            f"<!-- Start table -->\n{create_md_table(get_solve_info(data))}\n<!-- End table -->",
+            f"<!-- Start table -->\n{create_md_table(solve_info)}\n<!-- End table -->",
             md,
         )
 
