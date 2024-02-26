@@ -8,19 +8,25 @@ class StackArr {
  public:
   StackArr();
   StackArr(const StackArr& other);
-  ~StackArr();
+  StackArr(const Complex& head);
   StackArr& operator=(const StackArr& other);
+  ~StackArr();
 
-  void push(Complex& value);
-  void pop() noexcept;
-  bool isEmpty() noexcept;
-  const Complex& top() const;
-  void clear() noexcept;
+  void Pop() noexcept;
+  void Push(const Complex& value);
+  void Clear() noexcept {
+    size_ = 0;
+    head_ = nullptr;
+  };
+  bool IsEmpty() const noexcept { return size_ == 0; };
+  const Complex& Top() const;
+  Complex& Top();
 
  private:
-  Complex* data_;
-  ptrdiff_t size_;
-  ptrdiff_t top_index_;
+  Complex* data_ = nullptr;
+  Complex* head_ = nullptr;
+  ptrdiff_t size_ = 0;
+  ptrdiff_t capacity_ = 0;
 };
 
 #endif
