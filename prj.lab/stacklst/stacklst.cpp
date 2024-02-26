@@ -31,8 +31,8 @@ void StackLst::Pop() noexcept {
   delete temp_node;
 }
 
-StackLst::StackLst(const Complex& other) : head_{new Node} {
-  head_->data = other;
+StackLst::StackLst(const Complex& head) : head_{new Node} {
+  head_->data = head;
 }
 
 StackLst::StackLst(const StackLst& other) : head_{nullptr} {

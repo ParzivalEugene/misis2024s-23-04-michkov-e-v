@@ -6,7 +6,7 @@
 
 class StackLst {
  public:
-  StackLst();
+  StackLst() = default;
   StackLst(const StackLst& other);
   StackLst(const Complex& head);
   StackLst& operator=(const StackLst& other);
