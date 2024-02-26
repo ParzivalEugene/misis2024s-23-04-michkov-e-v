@@ -8,14 +8,16 @@ class StackLst {
  public:
   StackLst();
   StackLst(const StackLst& other);
-  ~StackLst();
+  StackLst(const Complex& head);
   StackLst& operator=(const StackLst& other);
+  ~StackLst();
 
-  void push(Complex& value);
-  void pop() noexcept;
-  bool isEmpty() noexcept;
-  const Complex& top() const;
-  void clear() noexcept;
+  void Pop() noexcept;
+  void Push(const Complex& value);
+  Complex& Top();
+  const Complex& Top() const;
+  bool IsEmpty() const noexcept;
+  void Clear() noexcept;
 
  private:
   struct Node {
@@ -23,7 +25,7 @@ class StackLst {
     Node* next = nullptr;
   };
 
-  Node* head_{nullptr};
+  Node* head_ = nullptr;
 };
 
 #endif
