@@ -13,6 +13,7 @@
     "**/__pycache__": true
   },
   "files.associations": {
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "numeric": "cpp"
   }
 }

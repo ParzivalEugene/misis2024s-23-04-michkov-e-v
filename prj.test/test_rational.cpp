@@ -105,12 +105,6 @@ TEST_CASE("Testing Rational class with int64_t") {
     CHECK(r2 == Rational(-7, 3));
   }
 
-  // TODO: Solve this test case! Эта шляпа вызывает operator*(Rational const&, long)
-  // SUBCASE("Testing multiplication operator") {
-  //   Rational r2 = r1 * i1;
-  //   CHECK(r2 == Rational(2, 1));
-  // }
-
   SUBCASE("Testing division operator") {
     Rational r2 = r1 / i1;
     CHECK(r2 == Rational(2, 9));

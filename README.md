@@ -1,8 +1,12 @@
 # Объектно Ориентированное Программирование
 
-![count](https://img.shields.io/badge/Решено_задач-56-blue?style=for-the-badge)
-![rating](https://img.shields.io/badge/Средний_рейтинг-960-red?style=for-the-badge)
-[![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
+<div align=center>
+
+  ![count](https://img.shields.io/badge/Решено_задач-56-blue?style=for-the-badge)
+  [![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
+  ![rating](https://img.shields.io/badge/Средний_рейтинг-960-red?style=for-the-badge)
+
+</div>
 
 > Автор репозитория: [Мичков Евгений Владмирович](https://links.michkoff.com) БПМ-23-4
 
@@ -86,7 +90,7 @@
 ```bash
 python3 -m venv ./utils/.venv
 . ./utils/.venv/bin/activate
-pip3 install -r requirements.txt
+pip install -r ./utils/requirements.txt
 ```
 
 ### Pre-commit hook
