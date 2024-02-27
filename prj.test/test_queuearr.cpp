@@ -20,8 +20,9 @@ TEST_CASE("QueueArr") {
   CHECK_EQ(q.Tail(), Complex(3, 4));
 
   q.Pop();
+  q.Print();
   CHECK(q.IsEmpty());
-  
+
   q.Push(Complex(5, 6));
   CHECK_EQ(q.Top(), Complex(5, 6));
 
@@ -37,7 +38,7 @@ TEST_CASE("QueueArr") {
   q.Pop();
   CHECK_EQ(q.Top(), Complex(9, 10));
   CHECK_EQ(q.Tail(), Complex(9, 10));
-  
+
   q.Pop();
   CHECK(q.IsEmpty());
 }

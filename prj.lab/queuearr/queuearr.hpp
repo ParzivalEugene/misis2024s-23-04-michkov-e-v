@@ -6,7 +6,7 @@
 
 class QueueArr {
  public:
-  QueueArr();
+  QueueArr() = default;
   QueueArr(const QueueArr& other);
   QueueArr(const Complex& head);
   QueueArr& operator=(const QueueArr& other);
@@ -17,12 +17,15 @@ class QueueArr {
   void Clear() noexcept {
     size_ = 0;
     head_ = nullptr;
+    tail_ = nullptr;
   };
   bool IsEmpty() const noexcept { return size_ == 0; };
   const Complex& Top() const;
   Complex& Top();
   const Complex& Tail() const;
   Complex& Tail();
+
+  void Print() const;
 
  private:
   Complex* data_ = nullptr;
