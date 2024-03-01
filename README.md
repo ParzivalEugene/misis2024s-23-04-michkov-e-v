@@ -2,9 +2,9 @@
 
 <div align=center>
 
-  ![count](https://img.shields.io/badge/Решено_задач-57-blue?style=for-the-badge)
+  ![count](https://img.shields.io/badge/Решено_задач-58-blue?style=for-the-badge)
   [![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
-  ![rating](https://img.shields.io/badge/Средний_рейтинг-966-red?style=for-the-badge)
+  ![rating](https://img.shields.io/badge/Средний_рейтинг-963-red?style=for-the-badge)
 
 </div>
 
@@ -45,6 +45,7 @@
 | [1559A Mocha and Math](https://codeforces.com/problemset/problem/1559/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1559a.cpp) | 900 | bitmasks, constructive algorithms, math |
 | [1330A Dreamoon and Ranking Collection](https://codeforces.com/problemset/problem/1330/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1330a.cpp) | 900 | implementation |
 | [276A Lunch Rush](https://codeforces.com/problemset/problem/276/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0276a.cpp) | 900 | implementation |
+| [1703B ICPC Balloons](https://codeforces.com/problemset/problem/1703/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1703b.cpp) | 800 | data structures, implementation |
 | [41A Translation](https://codeforces.com/problemset/problem/41/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0041a.cpp) | 800 | implementation, strings |
 | [734A Anton and Danik](https://codeforces.com/problemset/problem/734/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0734a.cpp) | 800 | implementation, strings |
 | [520A Pangram](https://codeforces.com/problemset/problem/520/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0520a.cpp) | 800 | implementation, strings |
