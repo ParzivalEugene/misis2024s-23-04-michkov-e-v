@@ -2,9 +2,9 @@
 
 <div align=center>
 
-  ![count](https://img.shields.io/badge/Решено_задач-60-blue?style=for-the-badge)
+  ![count](https://img.shields.io/badge/Решено_задач-61-blue?style=for-the-badge)
   [![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
-  ![rating](https://img.shields.io/badge/Средний_рейтинг-963-red?style=for-the-badge)
+  ![rating](https://img.shields.io/badge/Средний_рейтинг-968-red?style=for-the-badge)
 
 </div>
 
@@ -19,6 +19,7 @@
 | [1B Spreadsheet](https://codeforces.com/problemset/problem/1/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0001b.cpp) | 1600 | implementation, math |
 | [431C k-Tree](https://codeforces.com/problemset/problem/431/C) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0431c.cpp) | 1600 | dp, implementation, trees |
 | [1404A Balanced Bitstring](https://codeforces.com/problemset/problem/1404/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1404a.cpp) | 1500 | implementation, strings |
+| [230B T-primes](https://codeforces.com/problemset/problem/230/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0230b.cpp) | 1300 | binary search, implementation, math, number theory |
 | [4C Registration System](https://codeforces.com/problemset/problem/4/C) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0004c.cpp) | 1300 | data structures, hashing, implementation |
 | [489B BerSU Ball](https://codeforces.com/problemset/problem/489/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0489b.cpp) | 1200 | dfs and similar, dp, graph matchings, greedy, sortings, two pointers |
 | [466A Cheap Travel](https://codeforces.com/problemset/problem/466/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0466a.cpp) | 1200 | implementation |
