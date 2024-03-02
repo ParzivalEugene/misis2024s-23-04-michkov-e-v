@@ -2,9 +2,9 @@
 
 <div align=center>
 
-  ![count](https://img.shields.io/badge/Решено_задач-61-blue?style=for-the-badge)
+  ![count](https://img.shields.io/badge/Решено_задач-62-blue?style=for-the-badge)
   [![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
-  ![rating](https://img.shields.io/badge/Средний_рейтинг-968-red?style=for-the-badge)
+  ![rating](https://img.shields.io/badge/Средний_рейтинг-977-red?style=for-the-badge)
 
 </div>
 
@@ -18,6 +18,7 @@
 | [1371D Grid-00100](https://codeforces.com/problemset/problem/1371/D) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1371d.cpp) | 1600 | constructive algorithms, greedy, implementation |
 | [1B Spreadsheet](https://codeforces.com/problemset/problem/1/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0001b.cpp) | 1600 | implementation, math |
 | [431C k-Tree](https://codeforces.com/problemset/problem/431/C) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0431c.cpp) | 1600 | dp, implementation, trees |
+| [455A Boredom](https://codeforces.com/problemset/problem/455/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0455a.cpp) | 1500 | dp |
 | [1404A Balanced Bitstring](https://codeforces.com/problemset/problem/1404/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1404a.cpp) | 1500 | implementation, strings |
 | [230B T-primes](https://codeforces.com/problemset/problem/230/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0230b.cpp) | 1300 | binary search, implementation, math, number theory |
 | [4C Registration System](https://codeforces.com/problemset/problem/4/C) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0004c.cpp) | 1300 | data structures, hashing, implementation |
