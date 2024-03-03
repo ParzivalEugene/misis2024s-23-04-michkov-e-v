@@ -2,9 +2,9 @@
 
 <div align=center>
 
-  ![count](https://img.shields.io/badge/Решено_задач-63-blue?style=for-the-badge)
+  ![count](https://img.shields.io/badge/Решено_задач-64-blue?style=for-the-badge)
   [![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
-  ![rating](https://img.shields.io/badge/Средний_рейтинг-974-red?style=for-the-badge)
+  ![rating](https://img.shields.io/badge/Средний_рейтинг-973-red?style=for-the-badge)
 
 </div>
 
@@ -45,6 +45,7 @@
 | [1A Theatre Square](https://codeforces.com/problemset/problem/1/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0001a.cpp) | 1000 | math |
 | [339B Xenia and Ringroad](https://codeforces.com/problemset/problem/339/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0339b.cpp) | 1000 | implementation |
 | [1721B Deadly Laser](https://codeforces.com/problemset/problem/1721/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1721b.cpp) | 1000 | implementation |
+| [96A Football](https://codeforces.com/problemset/problem/96/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0096a.cpp) | 900 | implementation, strings |
 | [1559A Mocha and Math](https://codeforces.com/problemset/problem/1559/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1559a.cpp) | 900 | bitmasks, constructive algorithms, math |
 | [1330A Dreamoon and Ranking Collection](https://codeforces.com/problemset/problem/1330/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1330a.cpp) | 900 | implementation |
 | [276A Lunch Rush](https://codeforces.com/problemset/problem/276/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0276a.cpp) | 900 | implementation |
