@@ -2,9 +2,9 @@
 
 <div align=center>
 
-  ![count](https://img.shields.io/badge/Решено_задач-67-blue?style=for-the-badge)
+  ![count](https://img.shields.io/badge/Решено_задач-68-blue?style=for-the-badge)
   [![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
-  ![rating](https://img.shields.io/badge/Средний_рейтинг-965-red?style=for-the-badge)
+  ![rating](https://img.shields.io/badge/Средний_рейтинг-972-red?style=for-the-badge)
 
 </div>
 
@@ -20,6 +20,7 @@
 | [431C k-Tree](https://codeforces.com/problemset/problem/431/C) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0431c.cpp) | 1600 | dp, implementation, trees |
 | [455A Boredom](https://codeforces.com/problemset/problem/455/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0455a.cpp) | 1500 | dp |
 | [1404A Balanced Bitstring](https://codeforces.com/problemset/problem/1404/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1404a.cpp) | 1500 | implementation, strings |
+| [520B Two Buttons](https://codeforces.com/problemset/problem/520/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0520b.cpp) | 1400 | dfs and similar, graphs, greedy, implementation, math, shortest paths |
 | [230B T-primes](https://codeforces.com/problemset/problem/230/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0230b.cpp) | 1300 | binary search, implementation, math, number theory |
 | [4C Registration System](https://codeforces.com/problemset/problem/4/C) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0004c.cpp) | 1300 | data structures, hashing, implementation |
 | [489B BerSU Ball](https://codeforces.com/problemset/problem/489/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0489b.cpp) | 1200 | dfs and similar, dp, graph matchings, greedy, sortings, two pointers |
