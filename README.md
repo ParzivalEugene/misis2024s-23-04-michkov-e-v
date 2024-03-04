@@ -2,9 +2,9 @@
 
 <div align=center>
 
-  ![count](https://img.shields.io/badge/Решено_задач-70-blue?style=for-the-badge)
+  ![count](https://img.shields.io/badge/Решено_задач-71-blue?style=for-the-badge)
   [![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
-  ![rating](https://img.shields.io/badge/Средний_рейтинг-992-red?style=for-the-badge)
+  ![rating](https://img.shields.io/badge/Средний_рейтинг-1021-red?style=for-the-badge)
 
 </div>
 
@@ -15,6 +15,7 @@
 <!-- Start table -->
 | Problem | Solution | Rating | Tags |
 | --- | --- | --- | --- |
+| [526F Pudding Monsters](https://codeforces.com/problemset/problem/526/F) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0526f.cpp) | 3000 | data structures, divide and conquer |
 | [380C Sereja and Brackets](https://codeforces.com/problemset/problem/380/C) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0380c.cpp) | 2000 | data structures, schedules |
 | [1371D Grid-00100](https://codeforces.com/problemset/problem/1371/D) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1371d.cpp) | 1600 | constructive algorithms, greedy, implementation |
 | [1B Spreadsheet](https://codeforces.com/problemset/problem/1/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0001b.cpp) | 1600 | implementation, math |
