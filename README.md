@@ -2,9 +2,9 @@
 
 <div align=center>
 
-  ![count](https://img.shields.io/badge/Решено_задач-66-blue?style=for-the-badge)
+  ![count](https://img.shields.io/badge/Решено_задач-67-blue?style=for-the-badge)
   [![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
-  ![rating](https://img.shields.io/badge/Средний_рейтинг-968-red?style=for-the-badge)
+  ![rating](https://img.shields.io/badge/Средний_рейтинг-965-red?style=for-the-badge)
 
 </div>
 
@@ -49,6 +49,7 @@
 | [1559A Mocha and Math](https://codeforces.com/problemset/problem/1559/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1559a.cpp) | 900 | bitmasks, constructive algorithms, math |
 | [1330A Dreamoon and Ranking Collection](https://codeforces.com/problemset/problem/1330/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1330a.cpp) | 900 | implementation |
 | [276A Lunch Rush](https://codeforces.com/problemset/problem/276/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0276a.cpp) | 900 | implementation |
+| [116A Tram](https://codeforces.com/problemset/problem/116/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0116a.cpp) | 800 | implementation |
 | [110A Nearly Lucky Number](https://codeforces.com/problemset/problem/110/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0110a.cpp) | 800 | implementation |
 | [977A Wrong Subtraction](https://codeforces.com/problemset/problem/977/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0977a.cpp) | 800 | implementation |
 | [546A Soldier and Bananas](https://codeforces.com/problemset/problem/546/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0546a.cpp) | 800 | brute force, implementation, math |
