@@ -38,11 +38,12 @@ def get_solve_info(data: Data) -> List[SolveInfo]:
                 tags=result.problem.tags,
             )
             for result in data.result
-            if result.verdict == "OK" and result.programming_language == "GNU C++17"
+            if result.verdict == "OK" and "C++" in result.programming_language
         ],
         key=lambda x: x.rating,
         reverse=True,
     )
+
 
 def get_avg_rating(solve_info: List[SolveInfo]) -> int:
     return sum(solve.rating for solve in solve_info) // len(solve_info)
