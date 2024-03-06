@@ -2,9 +2,9 @@
 
 <div align=center>
 
-  ![count](https://img.shields.io/badge/Решено_задач-72-blue?style=for-the-badge)
+  ![count](https://img.shields.io/badge/Решено_задач-73-blue?style=for-the-badge)
   [![Static Badge](https://img.shields.io/badge/CodeForces_--_ParzivalEugene-black?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ParzivalEugene)
-  ![rating](https://img.shields.io/badge/Средний_рейтинг-1037-red?style=for-the-badge)
+  ![rating](https://img.shields.io/badge/Средний_рейтинг-1038-red?style=for-the-badge)
 
 </div>
 
@@ -31,6 +31,7 @@
 | [466A Cheap Travel](https://codeforces.com/problemset/problem/466/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0466a.cpp) | 1200 | implementation |
 | [1352C K-th Not Divisible by n](https://codeforces.com/problemset/problem/1352/C) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1352c.cpp) | 1200 | binary search, math |
 | [492B Vanya and Lanterns](https://codeforces.com/problemset/problem/492/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0492b.cpp) | 1200 | binary search, implementation, math, sortings |
+| [456A Laptops](https://codeforces.com/problemset/problem/456/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0456a.cpp) | 1100 | sortings |
 | [519B A and B and Compilation Errors](https://codeforces.com/problemset/problem/519/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0519b.cpp) | 1100 | data structures, implementation, sortings |
 | [1717B Madoka and Underground Competitions](https://codeforces.com/problemset/problem/1717/B) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1717b.cpp) | 1100 | constructive algorithms, implementation |
 | [1669D Colorful Stamp](https://codeforces.com/problemset/problem/1669/D) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/1669d.cpp) | 1100 | implementation |
