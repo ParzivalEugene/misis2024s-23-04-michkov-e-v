@@ -24,6 +24,21 @@ TEST_CASE("Constructor") {
   CHECK(c6.im == 0);
 }
 
+TEST_CASE("Constructor with move semantics") {
+  Complex c1(1, 2);
+  Complex c2(std::move(c1));
+  CHECK(c2.re == 1);
+  CHECK(c2.im == 2);
+
+  Complex c3 = std::move(c2);
+  CHECK(c3.re == 1);
+  CHECK(c3.im == 2);
+
+  Complex&& c4 = Complex(1, 2);
+  CHECK(c4.re == 1);
+  CHECK(c4.im == 2);
+}
+
 TEST_CASE("Testing Complex class") {
   Complex c1(3, 4);
   Complex c2(1, 2);

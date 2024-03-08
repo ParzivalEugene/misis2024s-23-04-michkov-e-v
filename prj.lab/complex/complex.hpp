@@ -1,5 +1,6 @@
-#ifndef COMPLEX_H
-#define COMPLEX_H
+#pragma once
+#ifndef COMPLEX_HPP
+#define COMPLEX_HPP
 
 #include <algorithm>
 #include <cmath>
@@ -10,9 +11,11 @@
 struct Complex {
   [[nodiscard]] Complex();
   [[nodiscard]] Complex(const Complex&);
+  Complex(Complex&&) = default;
   [[nodiscard]] explicit Complex(const double real);
   [[nodiscard]] Complex(const double real, const double imaginary);
 
+  Complex& operator=(Complex&&) = default;
   Complex& operator=(const Complex& other);
   ~Complex() = default;
 
