@@ -123,6 +123,6 @@ if [ $exit_code -ne 0 ]; then
   exit 1
 fi
 
-git add .
+git add README.md prj.codeforces/CMakeLists.txt
 exit 0
 ```

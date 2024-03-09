@@ -2,6 +2,19 @@
 #include "doctest.h"
 #include "rational/rational.hpp"
 
+TEST_CASE("Constructor with move semantics") {
+  Rational r1(2, 3);
+  Rational r2(std::move(r1));
+  CHECK(r2 == Rational(2, 3));
+
+  Rational r3(3, 4);
+  r2 = std::move(r3);
+  CHECK(r2 == Rational(3, 4));
+
+  Rational&& r4 = Rational(4, 5);
+  CHECK(r4 == Rational(4, 5));
+}
+
 TEST_CASE("Testing Rational class") {
   Rational r1(2, 3);
   Rational r2(3, 4);
