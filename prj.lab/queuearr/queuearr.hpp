@@ -9,8 +9,11 @@ class QueueArr {
   QueueArr() = default;
   QueueArr(const QueueArr& other);
   QueueArr(const Complex& head);
-  QueueArr& operator=(const QueueArr& other);
+  QueueArr(QueueArr&& other) noexcept;
   ~QueueArr();
+  
+  QueueArr& operator=(const QueueArr& other);
+  QueueArr& operator=(QueueArr&& other) noexcept;
 
   void Pop() noexcept;
   void Push(const Complex& value);

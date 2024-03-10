@@ -22,6 +22,19 @@ QueueArr::QueueArr(const Complex& head) {
   data_[0] = head;
 }
 
+QueueArr::QueueArr(QueueArr&& other) noexcept {
+  data_ = other.data_;
+  size_ = other.size_;
+  capacity_ = other.capacity_;
+  head_ = other.head_;
+  tail_ = other.tail_;
+  other.data_ = nullptr;
+  other.size_ = 0;
+  other.capacity_ = 0;
+  other.head_ = 0;
+  other.tail_ = 0;
+}
+
 QueueArr& QueueArr::operator=(const QueueArr& other) {
   if (this != &other) {
     delete[] data_;
@@ -30,10 +43,26 @@ QueueArr& QueueArr::operator=(const QueueArr& other) {
     head_ = 0;
     tail_ = 0;
     data_ = new Complex[capacity_];
-    // only copy the actual elements
     for (std::size_t i = 0; i < size_; ++i) {
       data_[i] = other.data_[(other.head_ + i) % other.capacity_];
     }
+  }
+  return *this;
+}
+
+QueueArr& QueueArr::operator=(QueueArr&& other) noexcept {
+  if (this != &other) {
+    delete[] data_;
+    data_ = other.data_;
+    size_ = other.size_;
+    capacity_ = other.capacity_;
+    head_ = other.head_;
+    tail_ = other.tail_;
+    other.data_ = nullptr;
+    other.size_ = 0;
+    other.capacity_ = 0;
+    other.head_ = 0;
+    other.tail_ = 0;
   }
   return *this;
 }

@@ -17,6 +17,18 @@ TEST_CASE("QueueArr constructor") {
   CHECK_FALSE(queue3.IsEmpty());
 }
 
+TEST_CASE("QueueArr constructor with move semantics") {
+  Complex c1(1, 1);
+  QueueArr queue1(c1);
+  QueueArr queue2(std::move(queue1));
+  CHECK_FALSE(queue2.IsEmpty());
+
+  QueueArr queue3;
+  queue3 = std::move(queue2);
+  CHECK_FALSE(queue3.IsEmpty());
+  CHECK(queue2.IsEmpty());
+}
+
 TEST_CASE("QueueArr push/pop") {
   QueueArr queue;
   Complex c1(1, 1);
