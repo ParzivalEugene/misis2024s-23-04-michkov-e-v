@@ -7,8 +7,6 @@
     "source.sortAttrs": "explicit"
   },
   "files.exclude": {
-    "**/bin": true,
-    "**/build": true,
     "**/.venv/": true,
     "**/__pycache__": true
   },

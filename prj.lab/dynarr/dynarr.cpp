@@ -27,6 +27,17 @@ DynArr::DynArr(std::initializer_list<float> il) {
   }
 }
 
+DynArr::DynArr(DynArr&& rhs) noexcept {
+  if (this != &rhs) {
+    data_ = rhs.data_;
+    size_ = rhs.size_;
+    capacity_ = rhs.capacity_;
+    rhs.data_ = nullptr;
+    rhs.size_ = 0;
+    rhs.capacity_ = 0;
+  }
+}
+
 DynArr::~DynArr() {
   delete[] data_;
   data_ = nullptr;
@@ -54,6 +65,19 @@ DynArr& DynArr::operator=(const DynArr& rhs) {
   this->Resize(rhs.size_);
   for (float* i = data_; i < data_ + capacity_; i++)
     *(i) = *(rhs.data_ + (i - data_));
+  return *this;
+}
+
+DynArr& DynArr::operator=(DynArr&& rhs) noexcept {
+  if (this != &rhs) {
+    delete[] data_;
+    data_ = rhs.data_;
+    size_ = rhs.size_;
+    capacity_ = rhs.capacity_;
+    rhs.data_ = nullptr;
+    rhs.size_ = 0;
+    rhs.capacity_ = 0;
+  }
   return *this;
 }
 

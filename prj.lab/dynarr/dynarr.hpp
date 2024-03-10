@@ -12,8 +12,10 @@ class DynArr {
   DynArr(const DynArr& rhs);
   DynArr(const ptrdiff_t size);
   DynArr(std::initializer_list<float> il);
+  DynArr(DynArr&&) noexcept;
   ~DynArr();
 
+  DynArr& operator=(DynArr&&) noexcept;
   DynArr& operator=(const DynArr& rhs);
 
   ptrdiff_t Size() const { return size_; }
