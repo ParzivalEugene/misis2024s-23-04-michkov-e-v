@@ -51,25 +51,35 @@ StackLst::StackLst(const StackLst& other) : head_{nullptr} {
   }
 }
 
-StackLst& StackLst::operator=(const StackLst& other) {
-  Node* curr = head_;
-  Node* curr_other = other.head_;
-  while (curr_other != nullptr) {
-    if (curr->next == nullptr) {
-      curr->next = new Node;
-    }
-    curr->data = curr_other->data;
+StackLst::StackLst(StackLst&& other) noexcept : head_{other.head_} {
+  other.head_ = nullptr;
+}
 
-    curr = curr->next;
-    curr_other = curr_other->next;
-  }
-  if (curr_other == nullptr && curr != nullptr) {
-    while (curr->next != nullptr) {
-      Node* temp = curr->next;
-      delete curr;
-      curr = temp;
+StackLst& StackLst::operator=(const StackLst& other) {
+  if (this != &other) {
+    Clear();
+    if (!other.IsEmpty()) {
+      head_ = new Node;
+      head_->data = other.head_->data;
+      Node* temp = other.head_;
+      Node* prev = head_;
+      while (temp->next != nullptr) {
+        temp = temp->next;
+        Node* curr = new Node;
+        prev->next = curr;
+        curr->data = temp->data;
+        prev = curr;
+      }
     }
-    head_->next = nullptr;
+  }
+  return *this;
+}
+
+StackLst& StackLst::operator=(StackLst&& other) noexcept {
+  if (this != &other) {
+    Clear();
+    head_ = other.head_;
+    other.head_ = nullptr;
   }
   return *this;
 }

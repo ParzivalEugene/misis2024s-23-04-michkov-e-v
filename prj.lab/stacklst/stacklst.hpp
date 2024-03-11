@@ -9,8 +9,11 @@ class StackLst {
   StackLst() = default;
   StackLst(const StackLst& other);
   StackLst(const Complex& head);
-  StackLst& operator=(const StackLst& other);
+  StackLst(StackLst&& other) noexcept;
   ~StackLst();
+
+  StackLst& operator=(const StackLst& other);
+  StackLst& operator=(StackLst&& other) noexcept;
 
   void Pop() noexcept;
   void Push(const Complex& value);

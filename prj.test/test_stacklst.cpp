@@ -7,6 +7,15 @@ TEST_CASE("Constructor") {
   CHECK(stack.IsEmpty());
 }
 
+TEST_CASE("Move constructor") {
+  Complex c(1, 2);
+  StackLst stack1(c);
+  StackLst stack2(std::move(stack1));
+  CHECK_FALSE(stack2.IsEmpty());
+  CHECK_EQ(stack2.Top(), c);
+  CHECK(stack1.IsEmpty());
+}
+
 TEST_CASE("Push") {
   StackLst stack;
   Complex c(1, 2);
