@@ -10,6 +10,13 @@ QueueLst::QueueLst(const QueueLst& other) {
   }
 }
 
+QueueLst::QueueLst(QueueLst&& other) noexcept {
+  head_ = other.head_;
+  tail_ = other.tail_;
+  other.head_ = nullptr;
+  other.tail_ = nullptr;
+}
+
 QueueLst& QueueLst::operator=(const QueueLst& other) {
   if (this != &other) {
     Clear();
@@ -18,6 +25,17 @@ QueueLst& QueueLst::operator=(const QueueLst& other) {
       Push(current->val);
       current = current->next;
     }
+  }
+  return *this;
+}
+
+QueueLst& QueueLst::operator=(QueueLst&& other) noexcept {
+  if (this != &other) {
+    Clear();
+    head_ = other.head_;
+    tail_ = other.tail_;
+    other.head_ = nullptr;
+    other.tail_ = nullptr;
   }
   return *this;
 }

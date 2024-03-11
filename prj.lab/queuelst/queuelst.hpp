@@ -9,7 +9,9 @@ class QueueLst {
  public:
   QueueLst() = default;
   QueueLst(const QueueLst&);
+  QueueLst(QueueLst&&) noexcept;
   QueueLst& operator=(const QueueLst&);
+  QueueLst& operator=(QueueLst&&) noexcept;
   ~QueueLst();
 
   bool IsEmpty() const noexcept;

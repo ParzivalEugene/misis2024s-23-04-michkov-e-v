@@ -18,6 +18,16 @@ TEST_CASE("QueueLst - copy ctor") {
   CHECK(queue.Top() != copy.Top());
 }
 
+TEST_CASE("QueueLst - move ctor") {
+  QueueLst queue;
+  queue.Push(Complex{1, 1});
+  queue.Push(Complex{2, 2});
+  queue.Push(Complex{3, 3});
+  QueueLst copy(std::move(queue));
+  CHECK(queue.IsEmpty());
+  CHECK(copy.Top() == Complex{1, 1});
+}
+
 TEST_CASE("QueueLst - copy assignment") {
   QueueLst queue;
   queue.Push(Complex{1, 1});
