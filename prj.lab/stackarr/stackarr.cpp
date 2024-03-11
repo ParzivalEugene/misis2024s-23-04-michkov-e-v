@@ -15,6 +15,17 @@ StackArr::StackArr(const Complex& head)
   *head_ = head;
 }
 
+StackArr::StackArr(StackArr&& other) noexcept
+    : data_{other.data_},
+      head_{other.head_},
+      size_{other.size_},
+      capacity_{other.capacity_} {
+  other.data_ = nullptr;
+  other.head_ = nullptr;
+  other.size_ = 0;
+  other.capacity_ = 0;
+}
+
 StackArr::~StackArr() {
   delete[] data_;
   head_ = nullptr;
@@ -93,6 +104,21 @@ StackArr& StackArr::operator=(const StackArr& other) {
     head_ = data_ + size_ - 1;
     std::copy(other.data_, other.data_ + other.capacity_, data_);
     return *this;
+  }
+  return *this;
+}
+
+StackArr& StackArr::operator=(StackArr&& other) noexcept {
+  if (this != &other) {
+    delete[] data_;
+    data_ = other.data_;
+    head_ = other.head_;
+    size_ = other.size_;
+    capacity_ = other.capacity_;
+    other.data_ = nullptr;
+    other.head_ = nullptr;
+    other.size_ = 0;
+    other.capacity_ = 0;
   }
   return *this;
 }

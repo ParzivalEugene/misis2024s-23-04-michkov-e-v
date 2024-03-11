@@ -9,8 +9,11 @@ class StackArr {
   StackArr();
   StackArr(const StackArr& other);
   StackArr(const Complex& head);
-  StackArr& operator=(const StackArr& other);
+  StackArr(StackArr&& other) noexcept;
   ~StackArr();
+
+  StackArr& operator=(const StackArr& other);
+  StackArr& operator=(StackArr&& other) noexcept;
 
   void Pop() noexcept;
   void Push(const Complex& value);
