@@ -10,6 +10,76 @@
 
 > Автор репозитория: [Мичков Евгений Владмирович](https://links.michkoff.com) БПМ-23-4
 
+## Оглавление
+
+- [Scripts](#scripts) - локальные скрипты для ускорения работы
+- [Code Runner config](#code-runner-config) - настройки для VSCode
+- [Pre-commit](#pre-commit) - настройки для pre-commit хуков
+  - [Installation](#installation)
+  - [Pre-commit hook](#pre-commit-hook)
+- [Задачи](#задачи) - список всех решенных задач
+
+## Scripts
+
+> Запуск любого решения задачи с codeforces (любой код без линковки с локальными либами)
+
+```bash
+. ./scripts/run.sh prj.codeforces/0001a.cpp
+```
+
+> Полная сборка проектa
+
+Создает папку `build` и собирает все бинарники в `bin`
+
+```bash
+. ./scripts/build.sh
+```
+
+> Добавление нового модуля (лаборатоной работы) в проект
+
+Создает папку с исходниками и тестами, также обновляет все CMakeLists.txt в проекте
+
+```bash
+python new_module.py bitset
+```
+
+## Code Runner config
+
+```json
+{
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && mkdir -p bin && cd bin && g++ ../$fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+  }
+}
+```
+
+## Pre-commit
+
+### Installation
+
+```bash
+python3 -m venv ./utils/.venv
+. ./utils/.venv/bin/activate
+pip install -r ./utils/requirements.txt
+```
+
+### Pre-commit hook
+
+```bash
+. ./utils/.venv/bin/activate
+python3 ./utils/precommit.py
+
+exit_code=$?
+
+if [ $exit_code -ne 0 ]; then
+  echo "Error: Python script failed. Commit aborted."
+  exit 1
+fi
+
+git add README.md prj.codeforces/CMakeLists.txt
+exit 0
+```
+
 ## Задачи
 
 <!-- Start table -->
@@ -89,40 +159,3 @@
 | [617A Elephant](https://codeforces.com/problemset/problem/617/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0617a.cpp) | 800 | math |
 | [4A Watermelon](https://codeforces.com/problemset/problem/4/A) | [Solution](https://github.com/ParzivalEugene/misis2024s-23-04-michkov-e-v/blob/master/prj.codeforces/0004a.cpp) | 800 | brute force, math |
 <!-- End table -->
-
-## Code Runner config
-
-```json
-{
-  "code-runner.executorMap": {
-    "cpp": "cd $dir && mkdir -p bin && cd bin && g++ ../$fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
-  }
-}
-```
-
-## Pre-commit
-
-### Installation
-
-```bash
-python3 -m venv ./utils/.venv
-. ./utils/.venv/bin/activate
-pip install -r ./utils/requirements.txt
-```
-
-### Pre-commit hook
-
-```bash
-. ./utils/.venv/bin/activate
-python3 ./utils/precommit.py
-
-exit_code=$?
-
-if [ $exit_code -ne 0 ]; then
-  echo "Error: Python script failed. Commit aborted."
-  exit 1
-fi
-
-git add README.md prj.codeforces/CMakeLists.txt
-exit 0
-```
