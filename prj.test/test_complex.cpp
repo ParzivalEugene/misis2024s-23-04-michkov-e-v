@@ -3,6 +3,8 @@
 #include "doctest.h"
 
 TEST_CASE("Constructor") {
+  Complex c1;
+
   Complex c2(1);
   CHECK(c2.re == 1);
   CHECK(c2.im == 0);

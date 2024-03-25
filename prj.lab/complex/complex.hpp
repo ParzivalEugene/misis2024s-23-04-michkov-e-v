@@ -2,12 +2,8 @@
 #ifndef COMPLEX_HPP
 #define COMPLEX_HPP
 
-#include <algorithm>
-#include <cmath>
-#include <iosfwd>
 #include <iostream>
-#include <sstream>
-#include <stdexcept>
+
 struct Complex {
   [[nodiscard]] Complex();
   [[nodiscard]] Complex(const Complex&);

@@ -2,6 +2,7 @@
 #ifndef STACKLST_H
 #define STACKLST_H
 
+#include <algorithm>
 #include <complex/complex.hpp>
 
 class StackLst {

@@ -3,6 +3,9 @@
 #define STACKARR_H
 
 #include <complex/complex.hpp>
+#include <algorithm>
+#include <cmath>
+#include <iosfwd>
 
 class StackArr {
  public:

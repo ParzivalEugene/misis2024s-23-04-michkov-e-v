@@ -2,6 +2,9 @@
 #ifndef QUEUEARR_HPP
 #define QUEUEARR_HPP
 
+#include <algorithm>
+#include <iostream>
+
 #include "complex/complex.hpp"
 
 class QueueArr {
@@ -11,7 +14,7 @@ class QueueArr {
   QueueArr(const Complex& head);
   QueueArr(QueueArr&& other) noexcept;
   ~QueueArr();
-  
+
   QueueArr& operator=(const QueueArr& other);
   QueueArr& operator=(QueueArr&& other) noexcept;
 
@@ -35,7 +38,7 @@ class QueueArr {
   Complex* data_ = nullptr;
   ptrdiff_t head_ = 0;
   ptrdiff_t tail_ = 0;
-  ptrdiff_t size_ = 0;  // actual size
+  ptrdiff_t size_ = 0;      // actual size
   ptrdiff_t capacity_ = 0;  // allocated size
 };
 
