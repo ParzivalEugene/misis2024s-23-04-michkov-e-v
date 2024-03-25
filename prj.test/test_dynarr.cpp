@@ -15,7 +15,8 @@ TEST_CASE("Testing DynArr class") {
     CHECK(arr2.Size() == 10);
     CHECK(arr3.Size() == 0);
 
-    DynArr&& arr4 = DynArr(15);
+    DynArr arr4({1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15});
+    arr4 = std::move(arr4);
     CHECK(arr4.Size() == 15);
   }
 
