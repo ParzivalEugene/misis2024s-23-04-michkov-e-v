@@ -9,9 +9,5 @@
   "files.exclude": {
     "**/.venv/": true,
     "**/__pycache__": true
-  },
-  "files.associations": {
-    "iostream": "cpp",
-    "numeric": "cpp"
   }
 }
