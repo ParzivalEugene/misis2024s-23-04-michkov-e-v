@@ -1,6 +1,10 @@
 #include "bitset.hpp"
 
-BitSet::BitSet(const int32_t size) : size_(size) {
+BitSet::BitSet(const int32_t size) {
+  if (size <= 0) {
+    throw std::invalid_argument("BitSet::BitSet: size <= 0");
+  }
+  size_ = size;
   data_ = new bool[size_];
   Fill(false);
 }
