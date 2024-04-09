@@ -12,35 +12,33 @@
 
 ## Оглавление
 
-- [Scripts](#scripts) - локальные скрипты для ускорения работы
+- [CLI](#cli) - утилита для управления проектом
+  - [Устновка](#устновка)
+  - [Использование](#использование)
 - [Code Runner config](#code-runner-config) - настройки для VSCode
 - [Pre-commit](#pre-commit) - настройки для pre-commit хуков
   - [Installation](#installation)
   - [Pre-commit hook](#pre-commit-hook)
 - [Задачи](#задачи) - список всех решенных задач
 
-## Scripts
+## CLI
 
-> Запуск любого решения задачи с codeforces (любой код без линковки с локальными либами)
+### Устновка
+
+> Для установки cli должен быть установлен `rust`
 
 ```bash
-. ./scripts/run.sh prj.codeforces/0001a.cpp
+. ./add-alias.sh
 ```
 
-> Полная сборка проектa
-
-Создает папку `build` и собирает все бинарники в `bin`
+### Использование
 
 ```bash
-. ./scripts/build.sh
-```
+# Сборбка всего проекта
+br build
 
-> Добавление нового модуля (лаборатоной работы) в проект
-
-Создает папку с исходниками и тестами, также обновляет все CMakeLists.txt в проекте
-
-```bash
-python new_module.py bitset
+# Добавление нового модуля (лабы)
+br add <module_name>
 ```
 
 ## Code Runner config

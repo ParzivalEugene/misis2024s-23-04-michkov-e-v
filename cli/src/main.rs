@@ -6,11 +6,11 @@ pub mod validators {
     pub mod module_validator;
 }
 pub mod services {
-    pub mod build_service;
     pub mod add_service;
+    pub mod build_service;
 }
 
-use validators::file_validator::file_validator;
+// use validators::file_validator::file_validator;
 use validators::module_validator::validate_module_name;
 
 /// Fast cli for building, running and adding modules to your project
@@ -61,14 +61,15 @@ fn main() {
             services::add_service::add_module(&name);
         }
         Commands::Run { file } => {
-            match file_validator(&file) {
-                Ok(_) => {}
-                Err(e) => {
-                    eprintln!("{}", e);
-                    return;
-                }
-            }
-            println!("Running file: {:?}", file);
+            // match file_validator(&file) {
+            //     Ok(_) => {}
+            //     Err(e) => {
+            //         eprintln!("{}", e);
+            //         return;
+            //     }
+            // }
+            // println!("Running file: {:?}", file);
+            println!("Not implemented yet...")
         }
     }
 }
