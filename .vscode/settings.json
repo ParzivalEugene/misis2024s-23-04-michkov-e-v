@@ -9,5 +9,6 @@
   "files.exclude": {
     "**/.venv/": true,
     "**/__pycache__": true
-  }
+  },
+  "rust-analyzer.linkedProjects": ["./cli/Cargo.toml"]
 }
