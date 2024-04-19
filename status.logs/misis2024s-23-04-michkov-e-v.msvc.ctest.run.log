@@ -1,5 +1,5 @@
-Internal ctest changing into directory: D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/build.check
-Test project D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/build.check
+Internal ctest changing into directory: D:/.dima/misis2023f-23-check/misis2024s-23-04-michkov-e-v/build.check
+Test project D:/.dima/misis2023f-23-check/misis2024s-23-04-michkov-e-v/build.check
       Start  1: test_complex
       Start  2: test_rational
       Start  3: test_dynarr
@@ -10,14 +10,14 @@ Test project D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/build.
       Start  8: test_queuelstpr
       Start  9: test_bitset
       Start 10: doctest_bitset
-Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/doctest_bitset.exe
+Could not find executable D:/.dima/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/doctest_bitset.exe
 Looked in the following places:
-D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/doctest_bitset.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/doctest_bitset.exe.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/Release/doctest_bitset.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/Release/doctest_bitset.exe.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/doctest_bitset.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/doctest_bitset.exe.exe
+D:/.dima/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/doctest_bitset.exe
+D:/.dima/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/doctest_bitset.exe.exe
+D:/.dima/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/Release/doctest_bitset.exe
+D:/.dima/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/Release/doctest_bitset.exe.exe
+Release/D:/.dima/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/doctest_bitset.exe
+Release/D:/.dima/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/doctest_bitset.exe.exe
  1/29 Test #10: doctest_bitset ...................***Not Run   0.00 sec
       Start 11: doctest_bitset_m
       Start 12: doctest_complex
@@ -25,54 +25,56 @@ Release/D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/d
       Start 14: doctest_complex_m
       Start 15: doctest_rational
       Start 16: doctest_rational_io
- 2/29 Test  #1: test_complex .....................   Passed    0.06 sec
+ 2/29 Test  #1: test_complex .....................   Passed    0.22 sec
+ 3/29 Test  #2: test_rational ....................   Passed    0.20 sec
+ 4/29 Test  #3: test_dynarr ......................   Passed    0.19 sec
+ 5/29 Test  #4: test_stackarr ....................   Passed    0.18 sec
+ 6/29 Test  #5: test_stacklst ....................   Passed    0.16 sec
+ 7/29 Test  #6: test_queuelst ....................   Passed    0.15 sec
+ 8/29 Test  #7: test_queuearr ....................   Passed    0.14 sec
+ 9/29 Test  #8: test_queuelstpr ..................   Passed    0.12 sec
+10/29 Test #11: doctest_bitset_m .................   Passed    0.09 sec
+11/29 Test #12: doctest_complex ..................***Failed    0.08 sec
+12/29 Test #13: doctest_complex_io ...............   Passed    0.07 sec
+13/29 Test #14: doctest_complex_m ................   Passed    0.06 sec
       Start 17: doctest_rational_m
- 3/29 Test  #2: test_rational ....................   Passed    0.06 sec
       Start 18: doctest_dynarr
- 4/29 Test  #3: test_dynarr ......................   Passed    0.06 sec
       Start 19: doctest_dynarr_m
- 5/29 Test  #4: test_stackarr ....................   Passed    0.06 sec
       Start 20: doctest_queuearr
- 6/29 Test  #5: test_stacklst ....................   Passed    0.06 sec
       Start 21: doctest_queuearr_m
- 7/29 Test  #6: test_queuelst ....................   Passed    0.06 sec
       Start 22: doctest_queuelst
- 8/29 Test  #7: test_queuearr ....................   Passed    0.06 sec
       Start 23: doctest_queuelst_m
- 9/29 Test  #8: test_queuelstpr ..................   Passed    0.06 sec
       Start 24: doctest_queuelstpr
-10/29 Test  #9: test_bitset ......................   Passed    0.06 sec
       Start 25: doctest_queuelstpr_m
-11/29 Test #11: doctest_bitset_m .................   Passed    0.05 sec
       Start 26: doctest_stackarr
-12/29 Test #12: doctest_complex ..................***Failed    0.05 sec
       Start 27: doctest_stackarr_m
-13/29 Test #13: doctest_complex_io ...............   Passed    0.05 sec
       Start 28: doctest_stacklst
-14/29 Test #14: doctest_complex_m ................   Passed    0.05 sec
+14/29 Test #15: doctest_rational .................   Passed    0.22 sec
+15/29 Test  #9: test_bitset ......................Exit code 0xc0000374
+***Exception:   0.29 sec
       Start 29: doctest_stacklst_m
-15/29 Test #15: doctest_rational .................   Passed    0.05 sec
-16/29 Test #16: doctest_rational_io ..............   Passed    0.05 sec
-17/29 Test #17: doctest_rational_m ...............   Passed    0.05 sec
-18/29 Test #18: doctest_dynarr ...................   Passed    0.04 sec
-19/29 Test #19: doctest_dynarr_m .................***Failed    0.04 sec
-20/29 Test #20: doctest_queuearr .................***Failed    0.04 sec
-21/29 Test #21: doctest_queuearr_m ...............   Passed    0.03 sec
-22/29 Test #22: doctest_queuelst .................   Passed    0.03 sec
-23/29 Test #24: doctest_queuelstpr ...............   Passed    0.02 sec
-24/29 Test #23: doctest_queuelst_m ...............   Passed    0.03 sec
-25/29 Test #25: doctest_queuelstpr_m .............   Passed    0.02 sec
-26/29 Test #26: doctest_stackarr .................   Passed    0.02 sec
-27/29 Test #27: doctest_stackarr_m ...............   Passed    0.01 sec
-28/29 Test #28: doctest_stacklst .................   Passed    0.01 sec
-29/29 Test #29: doctest_stacklst_m ...............   Passed    0.01 sec
+16/29 Test #16: doctest_rational_io ..............   Passed    0.21 sec
+17/29 Test #17: doctest_rational_m ...............   Passed    0.19 sec
+18/29 Test #18: doctest_dynarr ...................   Passed    0.18 sec
+19/29 Test #19: doctest_dynarr_m .................   Passed    0.14 sec
+20/29 Test #20: doctest_queuearr .................***Failed    0.13 sec
+21/29 Test #21: doctest_queuearr_m ...............   Passed    0.12 sec
+22/29 Test #22: doctest_queuelst .................   Passed    0.10 sec
+23/29 Test #23: doctest_queuelst_m ...............   Passed    0.09 sec
+24/29 Test #24: doctest_queuelstpr ...............   Passed    0.08 sec
+25/29 Test #25: doctest_queuelstpr_m .............   Passed    0.07 sec
+26/29 Test #26: doctest_stackarr .................   Passed    0.06 sec
+27/29 Test #27: doctest_stackarr_m ...............   Passed    0.04 sec
+28/29 Test #28: doctest_stacklst .................   Passed    0.03 sec
+29/29 Test #29: doctest_stacklst_m ...............   Passed    0.02 sec
 
 86% tests passed, 4 tests failed out of 29
 
-Total Test time (real) =   0.12 sec
+Total Test time (real) =   0.44 sec
 
 The following tests FAILED:
+	  9 - test_bitset (Exit code 0xc0000374
+)
 	 10 - doctest_bitset (Not Run)
 	 12 - doctest_complex (Failed)
-	 19 - doctest_dynarr_m (Failed)
 	 20 - doctest_queuearr (Failed)
