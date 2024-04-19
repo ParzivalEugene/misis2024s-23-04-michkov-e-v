@@ -35,3 +35,7 @@ add_test(NAME test_queuelstpr COMMAND test_queuelstpr)
 add_executable(test_bitset test_bitset.cpp)
 target_link_libraries(test_bitset bitset)
 add_test(NAME test_bitset COMMAND test_bitset)
+
+add_executable(test_stackarrt test_stackarrt.cpp)
+target_link_libraries(test_stackarrt stackarrt)
+add_test(NAME test_stackarrt COMMAND test_stackarrt)
