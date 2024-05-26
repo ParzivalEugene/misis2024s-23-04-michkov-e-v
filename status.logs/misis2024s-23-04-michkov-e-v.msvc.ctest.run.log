@@ -25,58 +25,55 @@ Release/D:/projects/misis2023f-23-check/misis2024s-23-04-michkov-e-v/bin.check/d
       Start 14: doctest_complex_io
       Start 15: doctest_complex_m
       Start 16: doctest_rational
- 2/30 Test  #1: test_complex .....................   Passed    0.04 sec
+ 2/30 Test  #1: test_complex .....................   Passed    0.07 sec
       Start 17: doctest_rational_io
- 3/30 Test  #2: test_rational ....................   Passed    0.04 sec
+ 3/30 Test  #2: test_rational ....................   Passed    0.07 sec
       Start 18: doctest_rational_m
- 4/30 Test  #3: test_dynarr ......................   Passed    0.04 sec
+ 4/30 Test  #3: test_dynarr ......................   Passed    0.07 sec
       Start 19: doctest_dynarr
- 5/30 Test  #4: test_stackarr ....................   Passed    0.04 sec
+ 5/30 Test  #4: test_stackarr ....................   Passed    0.07 sec
       Start 20: doctest_dynarr_m
- 6/30 Test  #5: test_stacklst ....................   Passed    0.04 sec
+ 6/30 Test  #5: test_stacklst ....................   Passed    0.05 sec
       Start 21: doctest_queuearr
- 7/30 Test  #6: test_queuelst ....................   Passed    0.04 sec
+ 7/30 Test  #6: test_queuelst ....................   Passed    0.05 sec
       Start 22: doctest_queuearr_m
- 8/30 Test  #7: test_queuearr ....................   Passed    0.04 sec
+ 8/30 Test  #7: test_queuearr ....................   Passed    0.05 sec
       Start 23: doctest_queuelst
- 9/30 Test  #8: test_queuelstpr ..................   Passed    0.04 sec
+ 9/30 Test  #8: test_queuelstpr ..................   Passed    0.05 sec
       Start 24: doctest_queuelst_m
-10/30 Test #10: test_stackarrt ...................   Passed    0.04 sec
+10/30 Test  #9: test_bitset ......................   Passed    0.05 sec
       Start 25: doctest_queuelstpr
-11/30 Test #12: doctest_bitset_m .................   Passed    0.04 sec
+11/30 Test #10: test_stackarrt ...................   Passed    0.05 sec
       Start 26: doctest_queuelstpr_m
-12/30 Test #13: doctest_complex ..................***Failed    0.04 sec
+12/30 Test #12: doctest_bitset_m .................   Passed    0.04 sec
       Start 27: doctest_stackarr
-13/30 Test #14: doctest_complex_io ...............   Passed    0.04 sec
+13/30 Test #13: doctest_complex ..................***Failed    0.05 sec
       Start 28: doctest_stackarr_m
-14/30 Test #15: doctest_complex_m ................   Passed    0.04 sec
+14/30 Test #14: doctest_complex_io ...............   Passed    0.05 sec
       Start 29: doctest_stacklst
-15/30 Test #16: doctest_rational .................   Passed    0.04 sec
+15/30 Test #15: doctest_complex_m ................   Passed    0.05 sec
       Start 30: doctest_stacklst_m
-16/30 Test #17: doctest_rational_io ..............   Passed    0.04 sec
-17/30 Test #18: doctest_rational_m ...............   Passed    0.04 sec
-18/30 Test #19: doctest_dynarr ...................   Passed    0.04 sec
-19/30 Test #20: doctest_dynarr_m .................   Passed    0.04 sec
-20/30 Test #21: doctest_queuearr .................***Failed    0.03 sec
-21/30 Test #22: doctest_queuearr_m ...............   Passed    0.03 sec
+16/30 Test #16: doctest_rational .................   Passed    0.05 sec
+17/30 Test #17: doctest_rational_io ..............   Passed    0.04 sec
+18/30 Test #18: doctest_rational_m ...............   Passed    0.04 sec
+19/30 Test #19: doctest_dynarr ...................   Passed    0.04 sec
+20/30 Test #20: doctest_dynarr_m .................   Passed    0.04 sec
+21/30 Test #21: doctest_queuearr .................***Failed    0.03 sec
 22/30 Test #23: doctest_queuelst .................   Passed    0.03 sec
-23/30 Test #24: doctest_queuelst_m ...............   Passed    0.02 sec
-24/30 Test #25: doctest_queuelstpr ...............   Passed    0.02 sec
-25/30 Test #26: doctest_queuelstpr_m .............   Passed    0.02 sec
-26/30 Test  #9: test_bitset ......................Exit code 0xc0000374
-***Exception:   0.07 sec
+23/30 Test #22: doctest_queuearr_m ...............   Passed    0.03 sec
+24/30 Test #24: doctest_queuelst_m ...............   Passed    0.03 sec
+25/30 Test #25: doctest_queuelstpr ...............   Passed    0.02 sec
+26/30 Test #26: doctest_queuelstpr_m .............   Passed    0.02 sec
 27/30 Test #27: doctest_stackarr .................   Passed    0.02 sec
 28/30 Test #28: doctest_stackarr_m ...............   Passed    0.01 sec
 29/30 Test #29: doctest_stacklst .................   Passed    0.01 sec
 30/30 Test #30: doctest_stacklst_m ...............   Passed    0.01 sec
 
-87% tests passed, 4 tests failed out of 30
+90% tests passed, 3 tests failed out of 30
 
-Total Test time (real) =   0.09 sec
+Total Test time (real) =   0.13 sec
 
 The following tests FAILED:
-	  9 - test_bitset (Exit code 0xc0000374
-)
 	 11 - doctest_bitset (Not Run)
 	 13 - doctest_complex (Failed)
 	 21 - doctest_queuearr (Failed)
