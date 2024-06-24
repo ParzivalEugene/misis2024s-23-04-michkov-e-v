@@ -1,4 +1,4 @@
-CHECK: 20240526-222009
+CHECK: 20240624-175647
 STATUS: lab complex - test-failed
 STATUS: lab complex_io - test-ok
 STATUS: lab complex_m - test-ok
